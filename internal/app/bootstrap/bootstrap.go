@@ -14,7 +14,7 @@ import (
 
 var (
 	brokers   = []string{"localhost:9092"}
-	runWorker = flag.Bool("collector", true, "run collector processor")
+	runWorker = flag.Bool("worker", true, "run worker processor")
 )
 
 func Run() {
